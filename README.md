@@ -1,10 +1,13 @@
 # OpenWrt luci feed
 
 ## Description
-
-This is the OpenWrt "luci"-feed containing LuCI - OpenWrt Configuration Interface.
+这个是Clone 981213的一个源，因为自己要编译，所以做一些修改或者添加
 
 ## Usage
+
+* 进入源码目录，编译 feeds.conf.def
+* 注视掉原有的 src-git luci https://git.lede-project.org/luci
+* 添加 src-git luci https://github.com/joole/luci-1
 
 This feed is enabled by default. Your feeds.conf.default (or feeds.conf) should contain a line like:
 ```
